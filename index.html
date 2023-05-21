@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>ChallengeOne</title>
+</head>
+
+<body>
+  <div class="conteiner">
+
+      <header id="header">
+        <h1>a</h1>
+      </header>
+
+
+      <main id="main">
+
+        
+        
+          <img  id="astro"  src="resource/astronave.png" alt="alien en planeta">
+        
+
+          <div id="borde">
+          <textarea  name="encript" placeholder="Ingrese el texto aquí" id="txt" ></textarea>
+        </div>
+        
+          <p id="minusculas">&#9888; Solo letras minúsculas y sin acentos</p>
+
+          <div class="btns">
+            <button class="btt bto" type="button" onclick="encriptar()" >Encriptar</button>
+            <button class="btt btw" type="button" onclick="desencriptar()" >Desencriptar</button>
+          </div>
+        
+      </main>
+
+
+      <aside id="aside">
+        
+        <figure class="pic">
+
+          <img  id="alien" src="resource/alien.png" alt="busqueda"  >
+         
+        </figure>
+
+        <h2 id="nme">Ningún mensaje fue encontrado</h2> 
+        <h3 id="ingresa">Ingresa el texto que desees encriptar o desencriptar</h3>
+        
+        
+        <textarea placeholder="." id="frs"></textarea>
+        <button class="btt bth" type="button" id="cop" onclick="copiar()" >Copiar</button>
+        
+      </aside>
+  </div>      
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>
