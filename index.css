@@ -26,7 +26,7 @@ html{
   "main  aside"
   "main aside ";
   justify-content: space-between;
-  min-height:100vh;
+  min-height: 100vh ;
   position: relative;
   background: no-repeat center  url(resource/moon.jpg);
   background-size: cover;
@@ -449,6 +449,12 @@ html{
 
 @media screen and (max-width: 369px) {
 
+  .conteiner{
+  
+  
+    height: calc(100vh - 10px)  ;
+  
+  }
  
 
   #alien{
