@@ -412,7 +412,7 @@ html{
 
   #ingresa{
     font-size: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
   }
 
   #frs, #txt{
@@ -422,6 +422,7 @@ html{
   
   #frs{
     width: 20ch;
+    margin-top: 3rem;
   }
 
   #nme{
@@ -450,8 +451,9 @@ html{
     width: 130px;
    }
 
-  
-  
+   .bth{
+    margin-bottom: 3.5rem;
+   }
   
 }
 
