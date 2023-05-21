@@ -43,7 +43,7 @@ function encriptar (){
         }else{
             noEncontrado()
             Swal.fire({
-                
+                position: 'center center',
                 html:'<p class="alerta" >Ningún mensaje captado</p> ',
                 icon: 'error',
                 confirmButtonText: 'Entendido',
@@ -75,7 +75,7 @@ function desencriptar (){
         }else{
             noEncontrado()
             Swal.fire({
-               
+                position: 'center center',
                 html:'<p class="alerta" >Ningún mensaje captado</p> ',
                 icon: 'error',
                 confirmButtonText: 'Entendido',
